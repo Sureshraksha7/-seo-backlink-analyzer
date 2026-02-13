@@ -20,7 +20,7 @@ function AdminDashboard() {
     totalProjects: 0,
     totalBacklinks: 0,
   });
-  const [loadingStats, setLoadingStats] = useState(false);
+  const [, setLoadingStats] = useState(false);
   const [statsError, setStatsError] = useState("");
 
   const navigate = useNavigate();

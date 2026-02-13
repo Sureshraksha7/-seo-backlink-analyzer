@@ -15,7 +15,6 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { IoIosArrowDown } from "react-icons/io";
 
 function ProjectBacklinksPage() {
-  const { projectId } = useParams(); // reserved for future use
   const location = useLocation();
   const navigate = useNavigate();
 
